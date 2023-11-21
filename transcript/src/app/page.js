@@ -1,6 +1,6 @@
 import DemoSection from "@/components/DemoSection";
 import PageHeaders from "@/components/PageHeaders";
-import UploadIcon from "@/components/UploadIcon";
+import UploadForm from "@/components/UploadForm";
 
 export default function Home() {
 	return (
@@ -10,10 +10,7 @@ export default function Home() {
 				h2Text='Upload the video and watch the magic happen'
 			/>
 			<div className='text-center'>
-				<button className='bg-pink-400 py-2 px-6 rounded-full inline-flex gap-2 border-2 border-purple-300/75'>
-					<UploadIcon />
-					<span>Choose file</span>
-				</button>
+				<UploadForm />
 			</div>
 			<DemoSection />
 		</>

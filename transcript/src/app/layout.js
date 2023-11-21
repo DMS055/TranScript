@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
 			>
 				<main className='p-4 max-w-2xl mx-auto'>
 					<header className='flex justify-between my-6'>
-						<Link href='/' className='flex gap-1'>
-							<WritingIcon />
+						<Link href='/' className='flex gap-1 text-xl font-medium'>
+							<WritingIcon className='w-6 h-7'/>
 							TranScript
 						</Link>
 						<nav className='flex gap-6 text-white/75'>
